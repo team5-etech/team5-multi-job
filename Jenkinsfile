@@ -7,7 +7,6 @@ pipeline {
 
                sh 'systemctl status jenkins'
               
-
            }
        }
       stage('Deploy Code') {
