@@ -4,7 +4,9 @@ pipeline {
        stage('Build Code') {
            steps {
                echo "Building Artifact"
+
                sh 'systemctl status jenkins'
+              
 
            }
        }
